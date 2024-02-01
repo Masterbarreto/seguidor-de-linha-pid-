@@ -16,7 +16,7 @@
 // Variáveis
 bool Sensor1, Sensor2, Sensor3;
 int velocidadeCurva;
-float erroAnterior, erroIntegral, erroDerivada;
+float erroAnterior, erroIntegral, erroDerivada; // para armazenar os valores do erro anterior, do erro integral e do erro derivativo. 
 
 void setup() {
   // Setamos os pinos de controle dos motores como saída
